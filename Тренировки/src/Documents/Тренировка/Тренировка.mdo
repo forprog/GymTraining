@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03749591-3a20-40d6-9edc-f224bcdf1825">
+  <producedTypes>
+    <objectType typeId="29e65fbd-f2bb-45ac-a798-ddda69d64881" valueTypeId="0da13418-a6f4-4144-b4a3-a3fae55c9286"/>
+    <refType typeId="0f131217-fa91-4005-9aa3-c8d79cdbc3b6" valueTypeId="3cc756cb-a7ac-480f-bdac-75b5afff3f01"/>
+    <selectionType typeId="1f02e0e4-c33c-4366-ba9e-098edf4792fa" valueTypeId="4c520c87-80de-4e9a-b3be-9e9597aedd49"/>
+    <listType typeId="acb189e4-e8d0-485a-b38d-b960e9e5d90f" valueTypeId="8c3722ec-8ca1-4a30-b7a0-35a1ad9c2f18"/>
+    <managerType typeId="38a8cb17-94a2-466c-87f8-c9aeabe5e504" valueTypeId="21ac6660-9924-4d53-95be-341034d1637e"/>
+  </producedTypes>
+  <name>Тренировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тренировка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Тренировка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0ac033ea-85ad-47b9-9cbf-32a24b1e317c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baf9cce4-31b8-4958-9e3b-6ecb11e4c651">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
