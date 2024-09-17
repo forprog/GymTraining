@@ -34,4 +34,14 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Пользователи.Form.ФормаСписка</defaultListForm>
+  <forms uuid="b937cc74-fbf4-4e5e-bf45-4b707de6e5c4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

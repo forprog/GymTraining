@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6af264bc-bcc1-4f2e-9a16-f7cc72a09ca8">
+  <name>Спортсмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спортсмен</value>
+  </synonym>
+</mdclass:Role>

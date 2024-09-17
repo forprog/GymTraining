@@ -40,6 +40,7 @@
   </languages>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Спортсмен</roles>
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.Тренировка</documents>
 </mdclass:Configuration>
