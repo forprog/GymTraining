@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3d11cc-2001-4240-9bf4-b8d3cf09f8d7">
+  <producedTypes>
+    <managerType typeId="eb35955d-6bf7-464b-a90c-79f310738c11" valueTypeId="b5c1244d-a278-4da7-a8d1-3ac231e2dac2"/>
+    <valueManagerType typeId="a632868b-d0bd-4aa6-b1e4-9ddb14e7ceee" valueTypeId="b5e840f4-762e-4e7a-b023-a97b54511c40"/>
+    <valueKeyType typeId="448f2d23-cdd1-4b82-b26d-18ebf5e3c367" valueTypeId="5bd6d173-8959-40b0-8f8a-e674e4c6da78"/>
+  </producedTypes>
+  <name>Тренировка_КоличествоКолонокВИстории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тренировка количество колонок в истории</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

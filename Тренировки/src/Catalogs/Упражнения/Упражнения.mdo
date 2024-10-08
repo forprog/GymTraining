@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d9e3e8-de74-42ba-af58-6dcb83cb1fcc">
+  <producedTypes>
+    <objectType typeId="3d0f6404-a4ed-4a7f-9b3e-e6a298924150" valueTypeId="88ff7cce-f7ad-4052-9f76-674a3e305d45"/>
+    <refType typeId="cb38766e-e294-4ed4-ac77-b46d95dfd95e" valueTypeId="03e0c883-6c39-493c-8e9c-a99dcc3940f8"/>
+    <selectionType typeId="ae52b5ff-9cb3-4dcb-b31d-e4b428a4b7c0" valueTypeId="1edd931d-be6c-4177-9016-ab5e2b7d8f98"/>
+    <listType typeId="5577f58f-a69c-4c1e-9826-dd5c5d832062" valueTypeId="778b31be-558b-415b-9e6b-0224678c7a37"/>
+    <managerType typeId="0a18916b-c3fb-466e-9d10-d596d8515056" valueTypeId="7c7798d0-9c7c-4435-b795-ab7154f09ec7"/>
+  </producedTypes>
+  <name>Упражнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упражнения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Упражнения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Упражнения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86453b25-d88e-4e89-99e6-dad067958df3">
+  <producedTypes>
+    <objectType typeId="b5296df4-48be-4ced-b83f-9ad948bae240" valueTypeId="48051643-69bb-4b98-9315-514309e191e4"/>
+    <refType typeId="37f16782-8795-4d30-9554-d91578f9a624" valueTypeId="046c0998-1bec-413b-8c53-29c13c3dce15"/>
+    <selectionType typeId="cbe70332-4158-409a-a555-9058b47ccd63" valueTypeId="36b605af-1909-4a95-9273-a91916b326cd"/>
+    <listType typeId="ff485ea2-dbf6-4455-891f-e1794cce2243" valueTypeId="57799268-d576-4e2f-a26d-c038b2156887"/>
+    <managerType typeId="9cd9318c-0a2f-4cf0-a941-6d1b4253402f" valueTypeId="bd6846f5-2d15-42b8-8045-f4a7e842aefb"/>
+  </producedTypes>
+  <name>ПрограммыТренировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программы тренировок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрограммыТренировок.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПрограммыТренировок.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="545a2540-1491-48bc-b670-11f3d46c8241">
+    <producedTypes>
+      <objectType typeId="15d628c1-f473-44aa-a523-4158bd554d49" valueTypeId="723b451f-2530-46f1-9d72-d09391559344"/>
+      <rowType typeId="ebe25c5e-dcdf-490e-8504-994054bdb9ba" valueTypeId="7f5d0991-a549-4649-9d8d-967cf2759f83"/>
+    </producedTypes>
+    <name>Упражения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражения</value>
+    </synonym>
+    <attributes uuid="632c3e67-6194-4c34-8a76-d5ee6e1df17a">
+      <name>НомерДня</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер дня</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3488a0ea-365e-4986-a080-e43449961c28">
+      <name>Упражнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упражнение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Упражнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d1c0667-8fbb-4959-ba9a-57cc3c296353">
+      <name>Подходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подходов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
