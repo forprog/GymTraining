@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Тренировка.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="0ac033ea-85ad-47b9-9cbf-32a24b1e317c">
@@ -56,4 +57,148 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="109612de-84d0-431c-bc8c-18e6fff17aaa">
+    <name>ПрограммаТренировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа тренировки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыТренировок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7d0f211-8e65-46fc-b96e-c284e3713dd8">
+    <name>НомерДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер дня</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6499a777-0560-44fc-afdd-0fd48000cfc9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b4ee3c94-baa7-4d55-863d-9f43f4adeb5b">
+    <producedTypes>
+      <objectType typeId="dc0854fa-c777-496c-825f-ff14e51eb0e9" valueTypeId="eeeefe2a-4fea-45fc-a060-0c2085a55f9d"/>
+      <rowType typeId="fc4abd40-af6b-4304-9c6d-23a8e088fd7f" valueTypeId="b75808fb-a04a-40bd-8a06-b97f7c291ff8"/>
+    </producedTypes>
+    <name>Упражнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упражнения</value>
+    </synonym>
+    <attributes uuid="5d1776ab-3c29-4378-950f-02bec5ee8bfc">
+      <name>Упражнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упражнение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Упражнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bc774a1a-c9a1-4b04-ae7c-45aa9a106760">
+      <name>ИДСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИДСтроки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4d61e39b-c8ac-46c1-8b90-5544e9878fdd">
+    <producedTypes>
+      <objectType typeId="66110ac6-c960-460c-a681-73d909d471a6" valueTypeId="64cb6610-a4d8-437d-a404-520e83e3800e"/>
+      <rowType typeId="88e78e22-f92d-4840-8643-bbbafa664efd" valueTypeId="307e5c61-a134-46a9-9d63-2dd4e9342f69"/>
+    </producedTypes>
+    <name>Подходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подходы</value>
+    </synonym>
+    <attributes uuid="4b9a6fb4-fda7-4579-94c8-0a4554a7a4cb">
+      <name>Упражнения_ИДСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упражнения ИДСтроки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd0956a1-7744-44d7-88a1-c56b6fde4e77">
+      <name>Повторений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Повторений</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42df80aa-0788-4164-aaac-43f8c359c916">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

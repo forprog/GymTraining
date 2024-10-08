@@ -41,6 +41,7 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Спортсмен</roles>
+  <commonModules>CommonModule.ПрограммыТренировокСервер</commonModules>
   <constants>Constant.Тренировка_КоличествоКолонокВИстории</constants>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПрограммыТренировок</catalogs>
