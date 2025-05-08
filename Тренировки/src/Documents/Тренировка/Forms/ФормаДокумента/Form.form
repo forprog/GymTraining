@@ -1498,23 +1498,6 @@
         <common>true</common>
       </edit>
     </columns>
-    <columns>
-      <name>ИДСтроки</name>
-      <title>
-        <key>ru</key>
-        <value>ИДСтроки</value>
-      </title>
-      <id>6</id>
-      <valueType>
-        <types>UUID</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
   </attributes>
   <commandInterface>
     <navigationPanel/>
@@ -1524,6 +1507,10 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

@@ -43,6 +43,7 @@
   <roles>Role.Спортсмен</roles>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ПрограммыТренировокСервер</commonModules>
+  <commonModules>CommonModule.ТренировкиКлиентСервер</commonModules>
   <constants>Constant.Тренировка_КоличествоКолонокВИстории</constants>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПрограммыТренировок</catalogs>
