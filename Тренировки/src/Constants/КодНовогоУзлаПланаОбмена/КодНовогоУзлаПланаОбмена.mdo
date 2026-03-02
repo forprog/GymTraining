@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31162cad-07bd-481c-8dbd-ef95ceb2e46f">
+  <producedTypes>
+    <managerType typeId="52469bdf-6af9-4e86-a723-74a810bd5c9f" valueTypeId="7d6ee155-5b8b-4f09-852d-6d29c54c6bf6"/>
+    <valueManagerType typeId="ba4ac6d4-85a2-4f89-899d-9825d25e6067" valueTypeId="8efcdb0a-ca1f-418b-9c2b-b9f416f82acd"/>
+    <valueKeyType typeId="88d0536f-54fe-4187-8893-a67d92aaf43e" valueTypeId="0fd731b3-ca18-41e9-b4a6-79e59f106df7"/>
+  </producedTypes>
+  <name>КодНовогоУзлаПланаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код нового узла плана обмена</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

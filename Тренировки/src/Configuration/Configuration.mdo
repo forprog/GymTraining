@@ -14,6 +14,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="70146798-ab2a-430f-b7ec-26715a1ce975"/>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -41,9 +42,16 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Спортсмен</roles>
+  <commonModules>CommonModule.ОбменМобильныеАвтономныйКлиент</commonModules>
+  <commonModules>CommonModule.ОбменМобильныеАвтономныйСервер</commonModules>
+  <commonModules>CommonModule.ОбменМобильныеВызовПК</commonModules>
+  <commonModules>CommonModule.ОбменМобильныеСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.ПрограммыТренировокСервер</commonModules>
   <commonModules>CommonModule.ТренировкиКлиентСервер</commonModules>
+  <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
+  <constants>Constant.КодНовогоУзлаПланаОбмена</constants>
   <constants>Constant.Тренировка_КоличествоКолонокВИстории</constants>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПрограммыТренировок</catalogs>

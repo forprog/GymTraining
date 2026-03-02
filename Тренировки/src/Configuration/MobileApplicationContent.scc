@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
+  <usedItem metadata="CommonModule.ОбщегоНазначенияКлиентСервер"/>
+  <usedItem metadata="CommonModule.ПрограммыТренировокСервер"/>
+  <usedItem metadata="CommonModule.ТренировкиКлиентСервер"/>
+  <usedItem metadata="SessionParameter.ТекущийПользователь"/>
+  <usedItem metadata="Role.Спортсмен"/>
+  <usedItem metadata="Constant.Тренировка_КоличествоКолонокВИстории"/>
+  <usedItem metadata="Catalog.Пользователи"/>
+  <usedItem metadata="Catalog.ПрограммыТренировок"/>
+  <usedItem metadata="Catalog.Упражнения"/>
+  <usedItem metadata="Document.Тренировка"/>
+  <usedItem metadata="ExchangePlan.Мобильные"/>
+  <usedItem metadata="CommonModule.ОбменМобильныеАвтономныйКлиент"/>
+  <usedItem metadata="CommonModule.ОбменМобильныеАвтономныйСервер"/>
+</scc:StandaloneContent>

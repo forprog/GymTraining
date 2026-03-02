@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e90f3b9-28e7-46f4-8f22-2d480558fcfb" thisNode="3f8164d9-45e9-40d4-8246-6f4ebb9e2d15">
+  <producedTypes>
+    <objectType typeId="8a15bb00-d924-48c7-be9b-9a8570f5ccd4" valueTypeId="e9228a38-07c5-47b0-8d52-f7418dfaf9ad"/>
+    <refType typeId="dd4a5fbe-d436-495b-b404-95f12a05b438" valueTypeId="98e045ba-9be6-46ef-b213-a39f3ffa52cb"/>
+    <selectionType typeId="f54779bc-b0d3-44d3-96d9-39ee465c72d9" valueTypeId="d3e19c2b-50fe-46f3-b4cb-92e4866ba157"/>
+    <listType typeId="070f6b4b-622a-44df-8620-a2ec95779924" valueTypeId="a086637c-bd00-42e9-833d-311414f5e52e"/>
+    <managerType typeId="b29ef4c3-6b2e-4931-8761-667cfb9e059c" valueTypeId="9d675b84-e868-4237-ba72-ea9b165d0029"/>
+  </producedTypes>
+  <name>Мобильные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Мобильные.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.Мобильные.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.Тренировка</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Упражнения</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Constant.Тренировка_КоличествоКолонокВИстории</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ПрограммыТренировок</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>
